@@ -44,7 +44,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in San Carlos, California.
+                  based in Bay Area, California.
                 </p>
                 <a
                   href="#contact"
