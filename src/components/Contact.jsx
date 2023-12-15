@@ -101,19 +101,19 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (060) 444 434 444
+              (206) 822 5081
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
-              (060) 555 545 555
+              (206) 822 5081
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              chat@simone.com
+              khuong.nguyen129@gmail.com
             </p>
             <h2
               className={
@@ -128,7 +128,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-dribbble">
+              {/* <li className="social-icons-dribbble">
                 <Tooltip text="Dribbble" placement="top">
                   <a
                     href="http://www.dribbble.com/harnishdesign/"
@@ -138,22 +138,22 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     <i className="fab fa-dribbble" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
+              </li> */}
+              <li className="social-icons-linkedin">
+                <Tooltip text="LinkedIn" placement="top">
                   <a
-                    href="https://twitter.com/harnishdesign/"
+                    href="https://www.linkedin.com/in/the-khuong-nguyen-5b80012a5/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/harnishdesign/"
+                    href="https://www.facebook.com/khuong.nguyen.524/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -175,7 +175,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/KhuongNguyen129"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

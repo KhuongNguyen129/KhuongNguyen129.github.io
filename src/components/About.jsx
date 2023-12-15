@@ -33,20 +33,18 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
-              Developer
+              I'm <span className="text-primary">Khuong Nguyen,</span> a Software Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              As a full-stack developer, I possess a versatile skill set involving frontend and backend development of web applications. 
+              I am proficient in JavaScript, Python, and React. 
+              Given these tools, it provides me the ability to create dynamic and interactive web solutions.
             </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            {/* <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
               requirements is our moto. Lorem Ipsum has been the industry's
               standard dummy text ever when an unknown printer took a galley.
-            </p>
+            </p> */}
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -59,27 +57,27 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Khuong Nguyen
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="https://mail.google.com/">khuong.nguyen129@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>30
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
+                  <span className="fw-600 me-2">From:</span>San Carlos,
                   California
                 </li>
               </ul>
-              <a
+              {/* <a
                 href={resumeFile}
                 download
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
           {/* about me personal details end */}
@@ -100,14 +98,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>10</span>+
+                  <span>1</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            {/* <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -121,7 +119,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   Happy Clients
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
@@ -130,14 +128,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>3</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Projects Done
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            {/* <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -151,7 +149,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   Get Awards
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* projects rewards counting end */}

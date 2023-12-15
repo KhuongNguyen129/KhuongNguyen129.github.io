@@ -25,12 +25,12 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.jpg"
-                title="I'm Simone"
+                title="I'm Khuong"
                 alt="profile"
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Khuong Nguyen
             </h1>
           </Link>
           {/* Logo End */}
@@ -169,7 +169,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
                 <a
-                  href="http://www.facebook.com/"
+                  href="https://www.facebook.com/khuong.nguyen.524/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -177,7 +177,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-twitter">
+            {/* <li className="social-icons-twitter">
               <Tooltip text="Twitter" placement="top">
                 <a
                   href="http://www.twitter.com/"
@@ -187,29 +187,29 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   <i className="fab fa-twitter" />
                 </a>
               </Tooltip>
-            </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
-                <a
-                  href="http://www.dribbble.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </Tooltip>
+            </li> */}
+            <li className="social-icons-linkedin">
+                <Tooltip text="LinkedIn" placement="top">
+                  <a
+                    href="https://www.linkedin.com/in/the-khuong-nguyen-5b80012a5/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-linkedin" />
+                  </a>
+                </Tooltip>
             </li>
             <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
-                <a
-                  href="http://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github" />
-                </a>
-              </Tooltip>
-            </li>
+                <Tooltip text="Github" placement="top">
+                  <a
+                    href="https://github.com/KhuongNguyen129"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-github" />
+                  </a>
+                </Tooltip>
+              </li>
           </ul>
           <button
             onClick={(e) => {
