@@ -46,28 +46,21 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
-    },
-    {
       name: "HTML/CSS",
-      percent: 95,
-    },
-    {
-      name: "JavaScript",
-      percent: 80,
-    },
-    {
-      name: "React JS",
       percent: 70,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "JavaScript",
+      percent: 90,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "React JS",
+      percent: 80,
+    },
+
+    {
+      name: "Python",
+      percent: 70,
     },
   ];
 
@@ -205,7 +198,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               </div>
             ))}
         </div>
-        <div className="text-center mt-5">
+        {/* <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
             href={resumeFile}
@@ -216,7 +209,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               <i className="fas fa-download" />
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

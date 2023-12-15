@@ -44,14 +44,14 @@ const ClassicHeader = ({ handleNavClick }) => {
               style={{ cursor: "pointer" }}
               className="logo"
               to="home"
-              title="Simone"
+              title="Khuong"
               onClick={(e) => {
                 e.preventDefault();
                 setIsNavModalClose(true);
               }}
             >
               {" "}
-              <img src="images/logo-light.png" alt="Simone" />{" "}
+              <img src="images/logo-light.png" alt="Khuong" />{" "}
             </Link>
             {/* Logo End */}
           </div>
@@ -205,21 +205,21 @@ const ClassicHeader = ({ handleNavClick }) => {
           </div>
           <div className="col-auto col-lg-2 d-flex justify-content-end">
             <ul className="social-icons social-icons-light">
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
+              <li className="social-icons-linkedin">
+                <Tooltip text="Linkedin" placement="top">
                   <a
-                    href="http://www.twitter.com/"
+                    href="https://www.linkedin.com/in/the-khuong-nguyen-5b80012a5/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/"
+                    href="https://www.facebook.com/khuong.nguyen.524/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -227,14 +227,14 @@ const ClassicHeader = ({ handleNavClick }) => {
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
+              <li className="social-icons-github">
+                <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.dribbble.com/"
+                    href="https://github.com/KhuongNguyen129"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-github" />
                   </a>
                 </Tooltip>
               </li>
