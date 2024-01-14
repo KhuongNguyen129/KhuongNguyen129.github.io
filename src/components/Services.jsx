@@ -4,34 +4,14 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Frontend Deverlopment",
+      desc: "Design and implement user interfaces using technologies such as HTML, CSS, and JavaScript. Develop client-side logic and functionality using frontend frameworks/libraries like React and Redux.",
       icon: "fas fa-palette",
     },
     {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Backend Deverlopment",
+      desc: "Develop server-side logic and business logic using backend technologies like Node.js, Python (Flask), Express, JavaScript. Design and interact with databases. Use database systems like MySQL, PostgreSQL.",
       icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
     },
   ];
 
