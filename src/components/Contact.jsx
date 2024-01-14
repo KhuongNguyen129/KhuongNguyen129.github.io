@@ -90,13 +90,13 @@ const Contact = ({ classicHeader, darkTheme }) => {
             >
               Address
             </h2>
-            <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
+            {/* <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               4th Floor, Plot No.22,
               <br />
               145 Murphy Canyon Rd.
               <br />
               San Diego CA 2028
-            </p>
+            </p> */}
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
