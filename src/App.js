@@ -5,7 +5,6 @@ import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
@@ -91,10 +90,6 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Portfolio>
-            <Testimonials
-              classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Testimonials>
             <Contact
               classicHeader={classicHeader}
               darkTheme={darkTheme}

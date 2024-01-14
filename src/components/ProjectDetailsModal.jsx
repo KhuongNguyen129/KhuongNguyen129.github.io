@@ -113,32 +113,11 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Client:
-                        </span>
-                        {projectDetails?.client}
-                      </li>
-                      <li>
-                        <span
-                          className={
-                            "text-dark font-weight-600 me-2" +
-                            (darkTheme ? " text-white" : "")
-                          }
-                        >
                           Technologies:
                         </span>
                         {projectDetails?.technologies}
                       </li>
-                      <li>
-                        <span
-                          className={
-                            "text-dark font-weight-600 me-2" +
-                            (darkTheme ? " text-white" : "")
-                          }
-                        >
-                          Industry:
-                        </span>
-                        {projectDetails?.industry}
-                      </li>
+              
                       <li>
                         <span
                           className={
@@ -168,7 +147,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         </a>
                       </li>
                     </ul>
-                    <div className="row no-gutters align-items-center">
+                    {/* <div className="row no-gutters align-items-center">
                       <div
                         className={
                           "col-auto text-dark font-weight-600" +
@@ -241,7 +220,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
