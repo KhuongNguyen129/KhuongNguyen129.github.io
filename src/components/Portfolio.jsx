@@ -29,10 +29,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       // socialLinks: {
       //   mail: "khuong.nguyen129@gmail.com",
       // },
-      thumbImage: "https://cdn.discordapp.com/attachments/1110721109076221993/1195903928341102642/image.png",
+      thumbImage: "/images/projects/khuongbnb3.png",
       sliderImages: [
-        "https://cdn.discordapp.com/attachments/1110721109076221993/1195904356730556436/image.png",
-        "https://cdn.discordapp.com/attachments/1110721109076221993/1195904643507695626/image.png",
+        "/images/projects/khuongbnb2.png",
+        "/images/projects/khuongbnb1.png",
       ],
       categories: [filters.BRAND],
     },
@@ -43,8 +43,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "HTML, CSS, Flask, Python, JavaScript, React.js ",
       date: "November 2023",
       url: {
-        name: "https://kelp-sqpk.onrender.com/",
-        link: "https://kelp-sqpk.onrender.com/",
+        name: "https://kelp2-0.onrender.com/",
+        link: "https://kelp2-0.onrender.com/",
       },
       // socialLinks: {
       //   facebook: "http://www.facebook.com/",
@@ -53,10 +53,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       //   instagram: "http://www.instagram.com/",
       //   mail: "mailto:example@gmail.com",
       // },
-      thumbImage: "https://cdn.discordapp.com/attachments/1110721109076221993/1195910174259564616/image.png",
+      thumbImage: "/images/projects/kelp1.png",
       sliderImages: [
-        "https://cdn.discordapp.com/attachments/1110721109076221993/1195910293130334220/image.png",
-        "https://cdn.discordapp.com/attachments/1110721109076221993/1195910377184170055/image.png",
+        "/images/projects/kelp2.png",
+        "/images/projects/kelp3.png",
       ],
       categories: [filters.DESIGN],
     },
@@ -78,12 +78,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       //   instagram: "http://www.instagram.com/",
       //   mail: "mailto:example@gmail.com",
       // },
-      thumbImage: "https://cdn.discordapp.com/attachments/1110721109076221993/1195912430971260958/image.png",
-      sliderImages: [
-        "https://cdn.discordapp.com/attachments/1110721109076221993/1195912554443190322/image.png",
-        "https://media.discordapp.net/attachments/1110721109076221993/1195912554732589096/image.png",
-      ],
-      categories: [filters.PHOTOS],
+      thumbImage: "/images/projects/b2w1.png",
+      sliderImages: ["/images/projects/b2w2.png", "/images/projects/b2w3.png"],
+      categories: [filters.BRAND],
     },
   ];
 

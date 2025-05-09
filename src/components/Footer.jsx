@@ -26,7 +26,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
           </div>
           <div className="col-lg-6">
             <ul className="nav nav-separator justify-content-center justify-content-lg-end">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   data-bs-toggle="modal"
@@ -35,8 +35,8 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                 >
                   Terms &amp; Policy
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   data-bs-toggle="modal"
@@ -45,7 +45,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                 >
                   Disclaimer
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

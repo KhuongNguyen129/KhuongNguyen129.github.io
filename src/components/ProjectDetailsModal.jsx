@@ -117,7 +117,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         </span>
                         {projectDetails?.technologies}
                       </li>
-              
+
                       <li>
                         <span
                           className={

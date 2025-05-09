@@ -33,18 +33,20 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Khuong Nguyen,</span> a Software Developer
+              Hi, I'm <span className="text-primary">Khuong Nguyen</span>
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              As a full-stack developer, I possess a versatile skill set involving frontend and backend development of web applications. 
-              I am proficient in JavaScript, Python, and React. 
-              Given these tools, it provides me the ability to create dynamic and interactive web solutions.
+              I'm a junior full-stack developer who enjoys crafting clean,
+              responsive web apps that are both functional and user-friendly.
+              With experience in TypeScript, JavaScript, and React, I focus on
+              writing maintainable code and delivering smooth user experiences.
+              I thrive in fast-paced environments where I can keep learning and
+              ship meaningful features.
             </p>
-            {/* <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
-            </p> */}
+            <p className={darkTheme ? "text-white-50" : ""}>
+              In my spare time, I enjoy exploring new restaurants and spending
+              time with my two cats.
+            </p>
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -61,14 +63,18 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="https://mail.google.com/">khuong.nguyen129@gmail.com</a>
+                  <a href="https://mail.google.com/">
+                    khuong.nguyen129@gmail.com
+                  </a>
                 </li>
-                <li>
-                  <span className="fw-600 me-2">Age:</span>30
+
+                <li className="border-0">
+                  <span className="fw-600 me-2">Location:</span>San Carlos,
+                  California
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>San Carlos,
-                  California
+                  <span className="fw-600 me-2">Citizenship Status:</span>U.S.
+                  Citizen
                 </li>
               </ul>
               {/* <a
@@ -98,7 +104,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>1</span>+
+                  <span>2</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance

@@ -103,12 +103,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               </span>
               (206) 822 5081
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
-              <span className="text-primary text-4 me-2">
-                <i className="fas fa-fax" />
-              </span>
-              (206) 822 5081
-            </p>
+
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
@@ -142,33 +137,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-linkedin">
                 <Tooltip text="LinkedIn" placement="top">
                   <a
-                    href="https://www.linkedin.com/in/the-khuong-nguyen-5b80012a5/"
+                    href="https://www.linkedin.com/in/khuong-c-nguyen/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="https://www.facebook.com/khuong.nguyen.524/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-google">
-                <Tooltip text="Google" placement="top">
-                  <a
-                    href="http://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-google" />
                   </a>
                 </Tooltip>
               </li>
@@ -193,7 +166,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Hire Me!
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -228,7 +201,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Thanks for reviewing my portfolio :)"
                     defaultValue={""}
                   />
                 </div>
@@ -246,7 +219,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                         aria-hidden="true"
                         class="spinner-border spinner-border-sm align-self-center me-2"
                       ></span>
-                      Sending.....
+                      Sending...
                     </>
                   ) : (
                     <>Send Message</>

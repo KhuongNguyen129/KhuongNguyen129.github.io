@@ -208,22 +208,11 @@ const ClassicHeader = ({ handleNavClick }) => {
               <li className="social-icons-linkedin">
                 <Tooltip text="Linkedin" placement="top">
                   <a
-                    href="https://www.linkedin.com/in/the-khuong-nguyen-5b80012a5/"
+                    href="https://www.linkedin.com/in/khuong-c-nguyen/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="https://www.facebook.com/khuong.nguyen.524/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook-f" />
                   </a>
                 </Tooltip>
               </li>

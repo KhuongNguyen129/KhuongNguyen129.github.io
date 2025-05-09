@@ -4,12 +4,12 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Frontend Deverlopment",
-      desc: "Design and implement user interfaces using technologies such as HTML, CSS, and JavaScript. Develop client-side logic and functionality using frontend frameworks/libraries like React and Redux.",
+      name: "Frontend Development",
+      desc: "Design and build user interfaces with React, JavaScript, and TypeScript. Develop responsive, interactive features using React and manage application state with libraries like Jotai.",
       icon: "fas fa-palette",
     },
     {
-      name: "Backend Deverlopment",
+      name: "Backend Development",
       desc: "Develop server-side logic and business logic using backend technologies like Node.js, Python (Flask), Express, JavaScript. Design and interact with databases. Use database systems like MySQL, PostgreSQL.",
       icon: "fas fa-desktop",
     },

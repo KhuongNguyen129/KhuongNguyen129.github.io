@@ -4,51 +4,78 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
+      yearRange: "Summer 2023",
+      title: "Student Software Engineer",
+      place: "App Academy Software Engineering Bootcamp",
+      desc: "Trained as a full-stack software engineer with a focus on JavaScript, Python, and React. Gained hands-on experience building dynamic web applications and developing RESTful APIs to connect frontend interfaces with backend services.",
+    },
+    {
       yearRange: "2021 - 2022",
       title: "Operator",
       place: "Renton Technical College",
-      desc: "Running CNC machine and tooling. Set up and operate CNC machines based on specific job requirements. Load raw materials into the machine and secure them in place.",
-    },
-    {
-      yearRange: "2023",
-      title: "Software Engineer",
-      place: "App Academy",
-      desc: "Learning full stack software engineer with JavaScript and Python. Create and manage APIs for communication between the frontend and backend.",
+      desc: "Operate and maintain CNC machines and tooling. Set up machines according to job specifications, load raw materials, and ensure they are properly secured.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2020",
-      title: "Manage",
-      place: "WestWood McDonald",
-      desc: "Schedule and manage the employee responsibilities and break time during their shift. Resolve customer complaints, conflicts and internal issues among the employees. Train new employees.",
+      yearRange: "2024 - 2025",
+      title: "Associate Frontend Software Engineer",
+      place: "Crusoe Energy",
+      desc: "Built a dynamic, paginated audit log UI using React, TypeScript, and Jotai with advanced filters and structured tables. Developed reusable components aligned with Figma designs and collaborated across teams to integrate APIs, handle data states, and ensure consistent UX.",
+    },
+    {
+      yearRange: "2024 - 2024",
+      title: "Frontend Software Engineer (Intern)",
+      place: "Crusoe Energy",
+      desc: "Contributed to UI development by refactoring components into reusable, scalable modules and ensuring design consistency.",
     },
     {
       yearRange: "2021 - 2022",
       title: "Operator",
-      place: "Spreaman Corporation",
+      place: "Spearman Corporation",
       desc: "Read and interpret mechanical documents and drawings. Set up and operate CNC machinery and tooling. Inspect and document defects with the parts.",
+    },
+    {
+      yearRange: "2012 - 2020",
+      title: "Manager",
+      place: "McDonald's",
+      desc: "Oversaw daily shift operations by managing employee schedules, assigning responsibilities, and coordinating break times. Resolved customer complaints and internal staff conflicts to maintain a smooth work environment. Trained and onboarded new team members to ensure consistent service quality.",
     },
   ];
 
   const skills = [
     {
-      name: "HTML/CSS",
-      percent: 70,
+      name: "TypeScript",
+      percent: 100,
     },
     {
       name: "JavaScript",
-      percent: 90,
+      percent: 100,
     },
     {
-      name: "React JS",
-      percent: 80,
+      name: "React",
+      percent: 100,
     },
-
     {
       name: "Python",
       percent: 70,
+    },
+    {
+      name: "Jotai",
+      percent: 90,
+    },
+    {
+      name: "Figma",
+      percent: 70,
+    },
+    {
+      name: "HTML/CSS",
+      percent: 80,
+    },
+    {
+      name: "Tailwind CSS",
+      percent: 80,
     },
   ];
 
